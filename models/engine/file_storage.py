@@ -32,7 +32,6 @@ class FileStorage:
         with open(FileStorage.__file_path, 'w') as file:
             json.dump(object_dict, file)
 
-
     def reload(self):
         """Loads storage dictionary from file"""
         try:
