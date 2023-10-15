@@ -28,10 +28,11 @@ class HBNBCommand(cmd.Cmd):
     def do_quit(self, sta):
         """Quit command to exit the program"""
         return True
+
     def emptyline(self):
         """repeats line on receiving empty line"""
         pass
-   
+
     def do_create(self, arg):
         """Create a new instance of BaseModel, save it and print the id
 
